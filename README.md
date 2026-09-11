@@ -13,6 +13,8 @@ Repositorio central del portal gamificado de electrónica y automatización y su
 
 El contenido es estático y compatible con Vercel. Cada juego conserva su despliegue de producción actual; este repositorio funciona como respaldo central y fuente para conectar futuras publicaciones automáticas.
 
+Repositorio conectado con Vercel para despliegues automáticos desde la rama `main`.
+
 ## Autor
 
 Andrés Marín — SENA CIDTI Dosquebradas.
