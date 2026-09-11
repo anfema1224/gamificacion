@@ -1,4 +1,21 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "desafio-industrial-torneo.vercel.app" }],
+      "destination": "/juegos/desafio-industrial/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "ruleta-resistencias.vercel.app" }],
+      "destination": "/juegos/ruleta-resistencias/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "mision-componentes.vercel.app" }],
+      "destination": "/juegos/mision-componentes/:path*"
+    }
+  ]
 }
